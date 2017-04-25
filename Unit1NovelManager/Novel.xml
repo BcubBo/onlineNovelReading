@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Novel>
+	<Book Type="言情">
+		<book author="言情作者" description="未知" name="言情1"/>
+	</Book>
+
+<Book Type="玄幻">
+        <book author="默认" description="暂无" name="java笔记"/>
+    </Book>
+<Book Type="自传体">
+        <book author="本人" description="fuckshit" name="fuck"/>
+    </Book>
+</Novel>

@@ -1,0 +1,45 @@
+
+﻿1，how the hell i know how to use the character encoding !
+2，how the hell i know how to use the character encoding !
+3，how the hell i know how to use the character encoding !
+4，how the hell i know how to use the character encoding !
+5，how the hell i know how to use the character encoding !
+6，how the hell i know how to use the character encoding !
+-----------------------------------------------------------
+测试中文字符的问题，
+如果是在记事本中进行文本的输入和编辑的话就不会出现通过FileInputStream和FileOutputStream的乱码问题
+使用如下的代码进行中文乱码的处理：
+InputStream ism=null;
+//作用域的相关问题，将ism设置为当前方法中的全局变量
+ism=new FileInputStream(Input.next());
+try{
+	Reader isr=new InputStreamReader(ism,"utf8");
+}catch(UnsupportedEncodingException usee){
+	usee.printStackTrace();
+}
+File file=new File(Input.next());
+Reader rr=new FileReader(file);
+BufferedReader bfr=new BufferedReader(rr);
+bfr.readLine();
+﻿1，how the hell i know how to use the character encoding !
+2，how the hell i know how to use the character encoding !
+3，how the hell i know how to use the character encoding !
+4，how the hell i know how to use the character encoding !
+5，how the hell i know how to use the character encoding !
+6，how the hell i know how to use the character encoding !
+-----------------------------------------------------------
+测试中文字符的问题，
+如果是在记事本中进行文本的输入和编辑的话就不会出现通过FileInputStream和FileOutputStream的乱码问题
+使用如下的代码进行中文乱码的处理：
+InputStream ism=null;
+//作用域的相关问题，将ism设置为当前方法中的全局变量
+ism=new FileInputStream(Input.next());
+try{
+	Reader isr=new InputStreamReader(ism,"utf8");
+}catch(UnsupportedEncodingException usee){
+	usee.printStackTrace();
+}
+File file=new File(Input.next());
+Reader rr=new FileReader(file);
+BufferedReader bfr=new BufferedReader(rr);
+bfr.readLine();
